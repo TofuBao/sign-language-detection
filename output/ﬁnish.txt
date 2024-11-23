@@ -1,0 +1,1 @@
+{"org_text": "ﬁnish", "clean_text": "ﬁnish", "start_time": 20.584, "signer_id": 41, "signer": 47, "start": 615, "end": 658, "file": "ASL ACTIONS", "label": 12, "height": 360, "fps": 29.878, "end_time": 22.023, "url": "https://www.youtube.com/watch?v=Vintf-DLWq0", "review": 1, "text": "finish", "box": [0.2194099724292755, 0, 1, 1], "width": 202}

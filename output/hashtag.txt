@@ -1,0 +1,1 @@
+{"org_text": "HASHTAG", "clean_text": "hashtag", "start_time": 0, "signer_id": 0, "signer": -1, "start": 0, "end": 77, "file": "HASHTAG", "label": 809, "height": 360, "fps": 29.981, "end_time": 2.568, "url": "https://www.youtube.com/watch?v=XHnWqlYFYNU", "text": "hashtag", "box": [0.06903961300849915, 0.1982772946357727, 1, 0.8161478042602539], "width": 640}

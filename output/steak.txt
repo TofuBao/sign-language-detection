@@ -1,0 +1,1 @@
+{"org_text": "Steak", "clean_text": "steak", "start_time": 123.567, "signer_id": 445, "signer": -1, "start": 3707, "end": 3779, "file": "ASL food", "label": 349, "height": 320, "fps": 30, "end_time": 125.967, "url": "https://www.youtube.com/watch?v=vE4RFGPqGqY", "text": "meat", "box": [0.07113921642303467, 0.33063387870788574, 1, 0.659907341003418], "width": 568}

@@ -1,0 +1,1 @@
+{"org_text": "DISH", "clean_text": "dish", "start_time": 0, "signer_id": 0, "signer": -1, "start": 0, "end": 101, "file": "DISH", "label": 603, "height": 240, "fps": 29.97, "end_time": 3.37, "url": "https://www.youtube.com/watch?v=4K3W6-GOD60", "text": "plate", "box": [0.014748632907867432, 0.12486147880554199, 0.9962031245231628, 0.9722766876220703], "width": 320}

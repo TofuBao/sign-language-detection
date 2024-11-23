@@ -1,0 +1,1 @@
+{"org_text": "acquire [GET/obtain]", "clean_text": "acquire", "start_time": 0, "signer_id": 0, "signer": 0, "start": 0, "end": 86, "file": "acquire GETobtain", "label": 22, "height": 360, "fps": 30, "end_time": 2.867, "url": "https://www.youtube.com/watch?v=2j7WDaPzZJ8", "text": "learn", "box": [0.06258201599121094, 0.2953394055366516, 1, 0.732180118560791], "width": 640}

@@ -1,0 +1,1 @@
+{"org_text": "ﬁre", "clean_text": "ﬁre", "start_time": 257.5, "signer_id": 147, "signer": 67, "start": 7725, "end": 7761, "file": "ASL II Vocabulary Unit 5", "label": 534, "height": 360, "fps": 30, "end_time": 258.7, "url": "https://www.youtube.com/watch?v=XEdsQNNyp-E", "text": "fire", "box": [0.02334541082382202, 0.29085761308670044, 1, 0.6558637619018555], "width": 640}

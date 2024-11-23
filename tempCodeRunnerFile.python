@@ -1,0 +1,56 @@
+import random
+import cv2
+import time
+import os
+
+def continuous_record_action(root_folder, user_name, repeat_count=10):
+    actions = ["hello", "father", "mother", "I or me", "see you later"]
+    cap = cv2.VideoCapture(0)  # 打开摄像头
+
+    if not cap.isOpened():
+        print("无法打开摄像头！")
+        return
+
+    try:
+        for count in range(repeat_count):
+            action_name = random.choice(actions)  # 每次随机选择动作
+            save_folder = os.path.join(root_folder, action_name)
+            os.makedirs(save_folder, exist_ok=True)
+
+            file_name = f"{action_name}_{count + 1}_{user_name}.mp4"
+            file_path = os.path.join(save_folder, file_name)
+            
+            print(f"准备录制 {action_name} 动作，计数：{count + 1}，保存到：{file_path}")
+            time.sleep(2)  # 录制准备时间
+            print("开始录制...")
+            
+            fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 定义编码格式
+            out = cv2.VideoWriter(file_path, fourcc, 30.0, (640, 480))
+
+            start_time = time.time()
+            while time.time() - start_time < 3.5:  # 录制3.5秒
+                ret, frame = cap.read()
+                if not ret:
+                    print("无法读取帧！")
+                    break
+                out.write(frame)
+                cv2.imshow('Recording', frame)
+
+                if cv2.waitKey(1) & 0xFF == ord('q'):  # 按 'q' 键退出
+                    break
+            
+            out.release()
+            print(f"视频已保存至：{file_path}")
+            
+        print("所有动作录制完成！")
+
+    finally:
+        cap.release()  # 释放摄像头
+        cv2.destroyAllWindows()
+
+# 调用连续录制函数
+continuous_record_action(
+    root_folder='I:/Ece496/test',
+    user_name='Bill',
+    repeat_count=10
+)

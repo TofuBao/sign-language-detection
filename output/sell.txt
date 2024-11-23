@@ -1,0 +1,1 @@
+{"org_text": "sell", "clean_text": "sell", "start_time": 0, "signer_id": 2, "signer": 81, "start": 0, "end": 140, "file": "Sell", "label": 113, "height": 360, "fps": 29.6, "end_time": 4.73, "url": "https://www.youtube.com/watch?v=YvUADXxfcJo", "text": "sell", "box": [0, 0.13744717836380005, 1, 0.9085321426391602], "width": 640}

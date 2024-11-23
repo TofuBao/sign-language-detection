@@ -1,0 +1,1 @@
+{"org_text": "purchase-[BUY]", "clean_text": "purchase", "start_time": 0, "signer_id": 0, "signer": 0, "start": 0, "end": 55, "file": "purchase-BUY", "label": 136, "height": 360, "fps": 29.973, "end_time": 1.835, "url": "https://www.youtube.com/watch?v=4sEBkCH4gsM", "text": "buy", "box": [0.07705524563789368, 0.2911055088043213, 1, 0.729763925075531], "width": 640}
