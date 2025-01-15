@@ -1,0 +1,16 @@
+import socket
+
+# Server IP address and TCP port number
+SERVER_IP_ADDRESS = "127.0.0.1"
+PORT = 2024
+read_buffer = ""
+message = b"Welcome to the ECE361 Socket Programming Lab!"
+
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client.connect((SERVER_IP_ADDRESS, PORT))
+print("Client is going to send a message...")
+client.sendall(message)
+print("Client has sent this message to the server: ", message)
+read_buffer = client.recv(1024)
+print("The server replied by sending back: ", read_buffer)
+client.close()
